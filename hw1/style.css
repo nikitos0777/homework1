@@ -1,0 +1,15 @@
+h1 
+{color:green;}
+
+h2 {color:orange;}
+.red {color:red;}
+
+ul {color:aqua;}
+
+p {color:purple;}
+
+
+button {background-color:deeppink}
+
+li:nth-last-child(3) {color:lawngreen;}
+li:nth-last-child(1) {color:rgb(188, 81, 209);}

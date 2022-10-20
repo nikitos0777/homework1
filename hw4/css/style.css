@@ -1,0 +1,264 @@
+body {
+    font-family: Open-sans, sans-serif;
+}
+.header {
+    display: flex;
+    max-width: 1900px;
+    height: 70px;
+    background-color: #313131;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.left_header_side {
+    display: flex;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 0;
+}
+
+.nav-list>li {
+    font-size: 15px;
+    margin-right: 35px;
+}
+
+.nav-list>li:hover{
+    color: #14B9D5;
+    cursor: pointer;
+}
+
+.img_header {
+    width: 81px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    width: 68px;
+    height: 70px;
+}
+
+.latest_news {
+    background-image: url('../img/header-background.png');
+    height: 369px;
+    max-width: 1900px;
+}
+
+h2{
+    padding-top: 164px;
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    
+}
+
+.btns_container {
+    text-align: center;
+    margin-top: 44px;
+}
+
+.btns_container>button {
+    font-family: Open-sans, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn_latest {
+    background: #89CA62;
+    margin-right: 20px;
+    padding: 16px 19px 17px 19px;
+}
+.btn_latest_two {
+    background: #14B9D5;
+    padding: 16px 29px 17px 30px;
+}
+h4 {
+    margin-top: 49px ;
+    text-align: center;
+    font-size: 27px;
+    color: #18B4CF;
+}
+.popular-post {
+    background-color: #F2F2F2;
+    display: flex;
+    height: 1030px;
+    justify-content: center;
+}
+
+.popular-img div{
+    margin: 20px;
+    text-align: center;
+    color: #353A3D;
+    font-size: 18px;
+
+}
+
+.popular-img p{
+background-color: #FFFFFF;
+padding: 12px;
+
+}
+.center-photo{
+background-image:url('../img/parallax-bg.png') ;
+Height: 588px;
+max-width: 1900px;
+margin-top: 2px;
+}
+
+.center-photo h5{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    text-align: center;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding-top: 106px;   
+}
+.logo_all{
+    margin-top: 207px;
+    display: block;
+   text-align: center;
+    gap: 50px;
+}
+.logo-2{
+    margin-left: 50px;
+}
+.logo-3{
+    margin-left: 50px;
+}
+.logo-4{
+    margin-left: 50px;
+}
+h6{
+ font-size: 27px;
+ text-align: center;
+color: #18B4CF;
+}
+
+.city{
+    display: block;
+  position: relative;
+  margin: 0 5px 10px
+}
+.news-hot{
+    font-size: 27px;
+    text-align: center;
+    color:#18B4CF;
+   
+}
+.hot-news-container {
+    display: grid;
+    grid-template:repeat(4, auto) / repeat(4, 1fr);
+    grid-gap: 20px;
+    max-width: 1160px;
+    margin: 0 auto 50px auto;
+}
+
+.hot-news-item {
+    background-color: #f9f7f7;
+    text-decoration: none;
+    color: #353a3d;
+}
+
+.news-type-a {
+    grid-column: 1/span 3;
+    display: inline-block;
+}
+
+.hot-news-item-type-a-img {
+    width: 60%;
+    vertical-align: middle;
+}
+
+.hot-news-item-type-a-description {
+    display: inline-block;
+    width: 39%;
+    vertical-align: middle;
+}
+
+
+    .basic-item-text {
+        margin: 20px;
+        font-size: 14px;
+        text-align: right;
+        line-height: 1.5;
+    }
+
+    .basic-item-title {
+        color: #353a3d;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        margin: 20px;
+    }
+
+
+.img-full-width {
+    width: 100%;
+}
+
+
+.news-type-b {
+    grid-column: 1/span 2;
+}
+
+.news-type-c {
+    grid-column: 3/span 2;
+}
+
+.news-type-d {
+    grid-column: 2/span 3;
+}
+
+.text-right {
+    text-align: right;
+}
+.footer {
+    background-color: #1d2124;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1160px;
+    height: 80px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.footer-text {
+    margin-top: 8px;
+    font-size: 13px;
+    color: white;
+}
+.footer-logo {
+    text-align: right;
+}
+
+.footer-logo-img {
+    vertical-align: top;
+}
+
+
+
