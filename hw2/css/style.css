@@ -2,6 +2,19 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
+.first-Element{
+    text-decoration: none;
+    color: #FF0000;    
+}
+.second-Element{
+text-decoration: none;
+color: #FF0000;
+}
+.third-Elemten{
+text-decoration: none;
+color:#FF0000
+}
+
 .hederList{
     font-size: 18px;
     font-weight: 700;
@@ -10,20 +23,21 @@ body {
     gap: 72px;
     list-style: none;
     text-transform: uppercase;
-    color: #f00;
     padding: 25.5px 0;
     letter-spacing: 2.7px;
 
 }
 .last-Elemnt{
-    margin-left: -22px;
+    text-decoration: none;
+    color:#FF0000;
+    margin-left: 22px;
 }
 .imeg{
     margin-bottom: 48px;
 }
 
 
-h1{
+h2{
     margin-bottom: 38px;
     text-transform: uppercase;
     letter-spacing: 3.3px;
